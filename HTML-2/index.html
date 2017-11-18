@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title> </title>
+    </head>
+    <body>
+        <!--Consistency-->
+        <!--  - Always use "https://www..." or "https://www..." when referencing with href-->
+        <a href="www.google.com">Google</a>
+        <!--  - Avoid using a capitalised version of the keyword 'class' -->
+        <div CLASS="">This is some text content. This is a large text sample.</div>
+        
+        <!--Boolean attribute value-->
+        <!-- - Do not assign boolean values to boolean attributes as shown below.-->
+        <!--BAD EXAMPLE(1):-->
+        <input type="checkbox" checked="checked"/>
+        
+        <!--BAD EXAMPLE(2):-->
+        <select>
+            <option selected="selected"></option>
+        </select>
+        
+        <!--GOOD EXAMPLE(1):-->
+        <input type="checkbox" checked/>
+        
+        <!--GOOD EXAMPLE(2):-->
+        <select>
+            <option selected></option>
+        </select>
+        
+        <!--keep css and script references separate-->
+        <link rel="stylesheet" href="main.css"/>
+        <script src="js/jquery.min.js"></script>
+        <script src="app.min.js"></script>
+        
+        <!--avoid div when you can-->
+        <!-- - Try to use sections and span tags instead of overly using divs.-->
+        
+        <!--BAD EXAMPLE:-->
+        <div></div>
+        
+        <!--GOOD EXAMPLE(1):-->
+        <section></section>
+        
+        <!--GOOD EXAMPLE(2):-->
+        <span>A piece of text.</span>
+        
+        
+        <!--use alt attribute -->
+        <!-- - Always add an alt tag to provide impaired users the ability to access images.-->
+        <img alt="Description"/>
+        
+    </body>
+    </html>

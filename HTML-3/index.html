@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title> </title>
+        
+        <style>
+            .DivClass{
+                display:block;
+                border:1px solid green;
+                border-radius: 10px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <!--do not use inline styles-->
+        <!--BAD EXAMPLE:-->
+        <div style="display:block;border:1px solid green;border-radius: 10px;"></div>
+        
+        <!--GOOD EXAMPLE:-->
+        <div class="DivClass"></div>
+
+        <!--internet explorer conditional comments-->
+        <!--[if lt IE 7]>
+            <script src="js/ie6.js"></script>
+        <![endif]-->
+        
+        <!--compression-->
+        
+        
+        <!--ignore script type attribute for JavaScript-->
+        <!-- - It is not necessary to specify the type of script you are using.-->
+        
+        <!--BAD EXAMPLE:-->
+        <script type="text/javascript"></script>
+        
+        <!--GOOD EXAMPLE:-->
+        <script></script>
+        
+    </body>
+    </html>
